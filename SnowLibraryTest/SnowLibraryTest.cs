@@ -21,6 +21,18 @@ namespace SnowLibraryTest
         }
 
         [TestMethod]
+        public void ShouldParseWithNegativeValue()
+        {
+            string barLine = "#A:RED:-5";
+            Bar expected = new Bar { Name = "A", Colour = Color.Red, Value = -5 };
+            IParser parser = new SnowParser();
+
+            var result = parser.Parse(barLine);
+
+            Assert.IsTrue(expected.Equals(result));
+        }
+
+        [TestMethod]
         public void ShouldFailWithNull()
         {
             string barLine = null;

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowLibrary", "Snow\SnowLibrary.csproj", "{BA96C23D-8E64-4915-A7AF-9AC8BC7E66D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowLibraryTest", "SnowLibraryTest\SnowLibraryTest.csproj", "{49A6CC64-4ACA-4DD8-8F89-1DFB2BFBA70C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowAPI", "SnowAPI\SnowAPI.csproj", "{35169435-25A8-4205-B519-AE32F21DCAA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA96C23D-8E64-4915-A7AF-9AC8BC7E66D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA96C23D-8E64-4915-A7AF-9AC8BC7E66D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA96C23D-8E64-4915-A7AF-9AC8BC7E66D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA96C23D-8E64-4915-A7AF-9AC8BC7E66D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A6CC64-4ACA-4DD8-8F89-1DFB2BFBA70C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A6CC64-4ACA-4DD8-8F89-1DFB2BFBA70C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A6CC64-4ACA-4DD8-8F89-1DFB2BFBA70C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A6CC64-4ACA-4DD8-8F89-1DFB2BFBA70C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35169435-25A8-4205-B519-AE32F21DCAA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35169435-25A8-4205-B519-AE32F21DCAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35169435-25A8-4205-B519-AE32F21DCAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35169435-25A8-4205-B519-AE32F21DCAA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8E41771-6560-41B9-B639-8A63D44C9C03}
+	EndGlobalSection
+EndGlobal
